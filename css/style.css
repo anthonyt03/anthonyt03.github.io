@@ -9,7 +9,10 @@ body {
 }
 
 header, footer {
-  background-color: #9bc1bc;
+  background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   text-align: left;
 /*  min-width: 500px; */
 }
@@ -45,7 +48,7 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #9bc1bc;
+  color: #4286f4;
   padding: 10px 0px 10px 10px;
 }
 
@@ -56,7 +59,7 @@ img {
   object-position: center top
 }
 a {
-  color: #ed6a5a;
+  color: #373B44;
 }
 .wrapper {
     max-width: 1150px;
@@ -151,8 +154,14 @@ a {
   margin: auto;
 }
 
-footer {
-  margin-top: 44px;
+footer div {
+  height: 100%;
+  font-family: 'Commissioner', sans-serif;
+  font-size: 14px;
+  display: flex;
+  align-content: center;
+  padding: 10px 20px;
+  color: rgba(255, 255, 255, 0.5);
 }
 @media all and (max-width:700px) {
   main {
