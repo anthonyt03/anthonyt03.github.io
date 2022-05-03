@@ -12,9 +12,9 @@ header,
 footer {
   background: #373B44;
   /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #4286f4, #373B44);
+  background: -webkit-linear-gradient(to left, #4286f4, #373B44);
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #4286f4, #373B44);
+  background: linear-gradient(to left, #4286f4, #373B44);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: left;
   /* min-width: 500px;
@@ -138,7 +138,7 @@ footer div {
   align-content: center;
   padding: 10px 20px;
   color: rgba(255, 255, 255, 0.5);
-  justify-content: space between;
+  justify-content: space-between;
 }
 ul {
 float: right;
@@ -176,7 +176,7 @@ iframe {
   .description {
     font-size: 18px;
   }
-  img {
+  img, iframe {
     height: 25vh;
   }
   .bio {
