@@ -142,7 +142,7 @@ footer div {
 }
 ul {
 float: right;
-list-style: none;
+list-style-type: none;
 }
 .copyright {
   margin: auto 0;
@@ -178,5 +178,8 @@ iframe {
   }
   img {
     height: 25vh;
+  }
+  .bio {
+    font-size: 20px;
   }
 }
