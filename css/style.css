@@ -141,8 +141,8 @@ footer div {
   justify-content: space between;
 }
 ul {
-float:right;
-list-style: none"
+float: right;
+list-style: none;
 }
 .copyright {
   margin: auto 0;
