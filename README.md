@@ -5,4 +5,4 @@ Built With
 - CSS 
 - reveal.js
 
-Project Link: [https://anthonyt03.github.io/#projects](https://anthonyt03.github.io/#projects)
+Project Link: https://anthonyt03.github.io/
